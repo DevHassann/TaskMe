@@ -1,7 +1,7 @@
 import { Toaster } from "sonner";
 import { Navigate, Outlet, Route, Routes, useLocation } from "react-router-dom";
 
-import { Layout } from "./utils/layout";
+import { Layout } from "./components/layouts/layout";
 import { Dashboard, Login, TaskDetails, Tasks, Trash, Users } from "./routes";
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
     <main className="w-full min-h-screen bg-[#f3f4f6]">
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<Navigate to="/dashboard" />} />
+          <Route index path="/" element={<Navigate to="/dashboard" />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/tasks" element={<Tasks />} />
           <Route path="/completed/:status" element={<Tasks />} />
