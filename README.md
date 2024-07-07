@@ -2,6 +2,9 @@
 ## Introduction
 Welcome to TaskMe, a cloud-based task manager designed to streamline team task management. Built using the robust MERN stack (MongoDB, Express.js, React, and Node.js), TaskMe offers a user-friendly interface for efficient task assignment, tracking, and collaboration. Whether you're an administrator or a regular user, TaskMe provides comprehensive features to enhance productivity and organization.
 
+## Why/Problem?
+In a dynamic work environment, effective task management is crucial for team success. Traditional methods of task tracking through spreadsheets or manual systems can be cumbersome and prone to errors. The Cloud-Based Task Manager aims to address these challenges by providing a centralized platform for task management, enabling seamless collaboration and improved workflow efficiency.
+
 ## Key Features
 * **Modern Tech Stack**: Built with MongoDB, Express.js, React, and Node.js.
 * **Task Management**: Easily assign, track, and manage tasks.
