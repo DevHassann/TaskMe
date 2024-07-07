@@ -18,10 +18,10 @@ export function Layout() {
 
       <MobileSidebar />
 
-      <div className="flex-1 overflow-y-auto">
+      <div className="flex-1 md:overflow-y-auto">
         <Navbar />
 
-        <div className="p-4 2xl:px-10">
+        <div className="p-4 2xl:px-10 overflow-hidden">
           <Outlet />
         </div>
       </div>

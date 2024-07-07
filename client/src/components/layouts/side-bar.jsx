@@ -50,11 +50,9 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="w-full  h-full flex flex-col gap-6 p-5">
-      <h1 className="flex gap-3 items-center">
-        <p className="bg-blue-600 p-2 rounded-full">
-          <img src={Logo} alt="TaskMe" className="w-[24px] h-[24px]" />
-        </p>
+    <div className="w-full  h-full flex flex-col gap-6 p-5 max-md:pt-[40px] max-md:h-[100vh]">
+      <h1 className="flex items-center">
+        <img src={Logo} alt="TaskMe" className="w-[60px] h-[60px]" />
         <span className="text-2xl font-bold text-black">TaskMe</span>
       </h1>
 

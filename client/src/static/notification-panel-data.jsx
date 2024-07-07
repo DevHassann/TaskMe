@@ -39,7 +39,7 @@ export const NotificationPanelData = [
 
 export const NotificationPanelIcons = {
   alert: (
-    <HiBellAlert className="h-5 w-5 text-gray-600 group-hover:text-indigo-600" />
+    <HiBellAlert className="h-5 w-[2.25rem] text-gray-600 group-hover:text-indigo-600" />
   ),
   message: (
     <BiSolidMessageRounded className="h-5 w-5 text-gray-600 group-hover:text-indigo-600" />
